@@ -1,0 +1,262 @@
+.topbar {
+
+  background-color: rgba(187, 117, 13, 0.527);
+
+
+
+
+  height: 20px;
+}
+
+.topbar2 {
+
+  background-color: #ffffff;
+  height: 20px;
+}
+
+.topbar3 {
+
+  background-color: #ffffff;
+  /* 
+   */
+  padding-top: 2%;
+}
+
+.header2 {
+  height: 150px;
+  width: 100%;
+}
+
+.myrows {
+  border: 3px solid hsl(123, 92%, 32%);
+  padding: 5px;
+}
+
+.mycols {
+  border: 3px solid hsl(123, 49%, 27%);
+}
+
+.mycontainer {
+  background-color: aqua;
+}
+
+#topHeader {
+  border-bottom: 1px solid hsl(130, 89%, 37%);
+  background-color: rgba(187, 117, 13, 0.527);
+  /* background-color: hsl(130, 89%, 37%); */
+}
+
+#topHeader a {
+  color: #0bad0b;
+  font-weight: 600;
+  font-size: 0.89rem;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+.nav-item a {
+  font-size: 20px;
+  font-weight: 20px;
+  color: rgb(7, 59, 7);
+}
+
+/* START : Footer */
+.full-footer {
+  background-color: rgba(187, 117, 13, 0.527);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  justify-items: center;
+
+}
+
+.top-footer p {
+  color: white;
+}
+
+.top-footer a {
+  color: white;
+  font-weight: 600;
+}
+
+.top-footer h3 {
+  color: white;
+}
+
+.bottom-footer {
+  background-color: rgba(187, 117, 13, 0.527);
+  width: 70%;
+  justify-items: center;
+
+}
+
+.bottom-footer p {
+  color: white;
+
+}
+
+.logoLeft {
+
+  float: left;
+  max-width: 240px;
+  max-height: 165px;
+
+
+}
+
+@media only screen and (min-width: 768px) {
+  .logoRight {
+
+    float: right;
+    max-width: 240px;
+    max-height: 165px;
+
+
+  }
+}
+
+.ccslogo {
+
+  float: right;
+  width: 50%;
+  height: auto;
+
+}
+
+.user {
+  float: left;
+  margin-right: 30px;
+  /* padding: 10px; */
+
+
+}
+
+.user a {
+  color: rgb(1, 36, 14);
+}
+
+.home {
+
+  color: #b4c7c7c5;
+
+
+}
+
+.searchForm {
+
+  width: 50%;
+  /* Full-width */
+  font-size: 16px;
+  /* Increase font-size */
+  padding: 12px 20px 12px 40px;
+  /* Add some padding */
+
+  margin-bottom: 12px;
+  /* Add some space below the input */
+  margin-left: 20px;
+}
+
+.news {
+  height: auto;
+  width: 100%;
+  background-color: rgb(223, 224, 222);
+
+
+}
+
+
+.myNavs {
+  padding-left: 2%;
+  /* background-color:  rgba(187, 117, 13, 0.527); */
+  width: 100%;
+}
+
+/* body {
+  background-image: url('/images/mecca.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 5%;
+  
+} */
+.allocated {
+  background-color: #da3b0b;
+}
+
+@media only screen and (min-width: 250px) {
+  .loginKey {
+    display: block;
+    float: right;
+    width: 250;
+    height: 150;
+  }
+}
+
+@media only screen and (min-width: 250px) {
+  .homeimage {
+    display: block;
+
+  }
+}
+
+.id-card {
+  max-width: 220px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size:xx-small;
+}
+
+.id-card img {
+  max-width: 150px;
+  height: 110px;
+  border-radius: 50%;
+  margin: 10px auto;
+  /* Center the image horizontally */
+  display: block;
+  /* Remove any default inline styles */
+}
+
+.table {
+  width: 30%;
+  margin-top: 0px;
+  border-collapse: collapse;
+}
+
+table td,
+.table th {
+  padding: 2px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table td img {
+  max-width: 50px; /* Adjust the max-width as needed */
+  margin: 2px 0; /* Adjust the margin as needed */
+}
+
+.alhajiImage img {
+  width: 130px;
+  height: 110px;
+  display: inline-block;
+  /* Make the image an inline-block element */
+
+}
+
+alhajiImage {
+  display: flex;
+  justify-content: center;
+  /* Center the content horizontally */
+  align-items: center;
+  /* Center the content vertically */
+}
